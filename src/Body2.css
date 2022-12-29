@@ -1,0 +1,119 @@
+.body2 {
+    padding: 25px;
+    padding-top: 15px;
+    height: 100 vh;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.login2__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login2__info > h1 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: -10px;
+}
+
+.login2__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login2__form > label {
+    color: grey;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.login2__form > input {
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    color: lightgray;
+    font-weight: 600;
+}
+
+.login2__form > input:focus {
+    border: 1px solid rgb(241, 241, 241);
+    transition: all 0.2s;
+}
+
+.login2__divider {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+
+.login2__divider > hr {
+    width: 40%;
+    height: 0;
+}
+
+.login2__divider > span {
+    font-weight: 500;
+    color: black;
+}
+
+.headerBlock2__actions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.headerBlock2__actions > button {
+    cursor: pointer;
+    border: none;
+    width: 360px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    outline: none;
+}
+
+.headerBlock2__buttonPrimary {
+    background-color: green;
+    opacity: 0.9;
+    color: white;
+
+}
+
+.headerBlock2__buttonSecondary {
+    background-color: red;
+    opacity: 0.8;
+    color: black;
+   
+}
+
+.login2__divider {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login2__divider > hr {
+    width: 40%;
+    height: 0;
+    /* opacity: 0.3; */
+}
+
+.login2__divider > span {
+    font-weight: 500;
+    color: black;
+}
