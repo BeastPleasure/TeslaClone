@@ -10,13 +10,13 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyA7JlUvGBqA7kGEvqLSsWs9kdfufMvJw4U",
+  apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   authDomain: "teslaclone-b61cc.firebaseapp.com",
   projectId: "teslaclone-b61cc",
   storageBucket: "teslaclone-b61cc.appspot.com",
-  messagingSenderId: "938981674626",
+  messagingSenderId: "XXXXXXXXXXXXXX",
   appId: "1:938981674626:web:59262207c001c577236e9b",
-  measurementId: "G-TWPZ2229F3"
+  measurementId: "XXXXXXXXXXXXX"
 };
 
 // Initialize Firebase
